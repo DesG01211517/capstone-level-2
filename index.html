@@ -19,6 +19,94 @@
         Let's Plan Your Next Trip!
       </h1>
     </div>
+    <div id="form" class="container">
+      <h2 style="text-align: center">Book Your Trip</h2>
+      <form>
+        <div class="form-group">
+          <label for="departureCity">Departure City *</label>
+          <input
+            type="text"
+            class="form-control"
+            id="departureCity"
+            name="departureCity"
+            placeholder="City, ST"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="arrivalCity">Arrival City *</label>
+          <input
+            type="text"
+            class="form-control"
+            id="arrivalCity"
+            name="arrivalCity"
+            placeholder="City, ST"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="flight">Flight *</label>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="flight"
+              name="flight"
+              placeholder="mm/dd/yyyy"
+              required
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="flightDateButton"
+              >
+                Select Date
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="hotel">Hotel *</label>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="hotel"
+              name="hotel"
+              placeholder="mm/dd/yyyy"
+              required
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="hotelDateButton"
+              >
+                Select Date
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="rentalCar">Rental Car</label>
+          <input
+            type="text"
+            class="form-control"
+            id="rentalCar"
+            name="rentalCar"
+            placeholder="mm/dd/yyyy"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="js/app.js"></script>
+    <script>
+      $("#flightDateButton, #hotelDateButton").datepicker({
+        format: "mm/dd/yyyy",
+        autoclose: true,
+      });
+    </script>
   </body>
-  <script src="js/app.js"></script>
 </html>

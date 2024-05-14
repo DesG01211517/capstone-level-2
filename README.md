@@ -19,6 +19,7 @@ Roadmap
 Author: Desmon Garrison email: desmongarrison2@gmail.com
 
 Acknowledgements
-https://www.w3schools.com/tags/default.asp
-https://www.quirksmode.org/js/boolean.html
-https://getbootstrap.com/
+- https://www.w3schools.com/tags/default.asp
+- https://www.quirksmode.org/js/boolean.html
+- https://getbootstrap.com/
+- https://chat.openai.com/
