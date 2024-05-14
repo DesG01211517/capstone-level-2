@@ -1,6 +1,18 @@
+header {
+    padding: 10px;
+}
 
 body {
-    background-image: url(Img/skyline.jpg);
-    background-size:cover;
+    margin: 0;
+    background-image:url(Img/beach.jpg);
+    background-size: cover;
+    
 
 };
+form {
+    margin: 0;
+    padding: 10;
+    border: 1.5rem;
+    border-color:black;
+    border-style: solid;
+}
