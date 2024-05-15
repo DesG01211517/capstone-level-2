@@ -1,10 +1,21 @@
+/* CSS HSL */ 
+--red-pantone: hsla(355, 78%, 56%, 1);
+--honeydew: hsla(105, 55%, 96%, 1);
+--non-photo-blue: hsla(182, 43%, 76%, 1);
+--cerulean: hsla(203, 39%, 44%, 1);
+--berkeley-blue: hsla(215, 50%, 23%, 1);
+
+h2 {
+    background-color: hsla(203, 39%, 44%, 1);
+}
+
 header {
     padding: 10px;
 }
 
 body {
     margin: 0;
-    background-image:url(Img/beach.jpg);
+    background-image: url(Img/beach.jpg);
     background-size: cover;
     
 
@@ -13,6 +24,5 @@ form {
     margin: 0;
     padding: 10;
     border: 1.5rem;
-    border-color:black;
     border-style: solid;
 }
