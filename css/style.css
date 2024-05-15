@@ -6,30 +6,32 @@
 --berkeley-blue: hsla(215, 50%, 23%, 1);
 
 h2 {
-    background-color: hsla(203, 39%, 44%, 1);
+    
 }
 
-header {
+#header {
+    background-color: hsla(182, 43%, 76%, 1);
     padding: 15px;
 }
 
-body {
+#body {
     background-image: url(Img/beach.jpg);
     background-size: cover;
     
-
-};
+}
 #form {
-    margin: 0;
-    padding: 20px;
-    width: 50%;
+    margin: auto;
+    padding: 1.5rem;
+    width: 75%;
     border: 3px solid black;
+    margin-block: 6rem;
 }
 #results {
     text-align: center;
     margin: auto;
     width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+    border: 10px solid black;
+    padding: 1.5rem;
+    margin-block: 5rem;
     
 }
