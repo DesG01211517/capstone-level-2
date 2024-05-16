@@ -1,6 +1,6 @@
 function getDetails(event) {
-  event.preventdefault();
-  console.log("details");
+  event.preventDefault();
+  console.log(event.target["arrivalCity"].value);
 }
 //$("#flightDateButton, #hotelDateButton").datepicker({
 //  format: "mm/dd/yyyy",
