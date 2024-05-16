@@ -16,71 +16,23 @@
   <body id="body">
     <div id="header">
       <h1 class="text-center" style="color: black">
-        Let's Plan Your Next Trip!
+        Let's Review Your Next Trade!
       </h1>
     </div>
-    <h2 style="text-align: center">Please Provide Travel Details</h2>
+    <h2 style="text-align: center">Choose Your Company</h2>
     <div id="form" class="container">
       <form onSubmit="getDetails(event)">
         <div class="form-group">
-          <label for="departureCity">Departure City *</label>
+          <label for="stockInfo">Company Name *</label>
           <input
             type="text"
             class="form-control"
-            id="departureCity"
-            name="departureCity"
-            placeholder="City, ST"
-            required
+            id="company"
+            name="companyInfo"
+            placeholder="required"
           />
         </div>
-        <div class="form-group">
-          <label for="arrivalCity">Arrival City</label>
-          <input type="text" class="form-control" id="arrivalCity"
-          name="arrivalCity" placeholder="City, ST" //required />
-        </div>
-        <div class="form-group">
-          <label for="flight">Flight </label>
-          <div class="input-group">
-            <input type="text" class="form-control" id="flight" name="flight"
-            placeholder="mm/dd/yyyy" //required />
-            <div class="input-group-append">
-              <button
-                class="btn btn-outline-secondary"
-                type="button"
-                id="flightDateButton"
-              >
-                Select Date
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="hotel">Hotel</label>
-          <div class="input-group">
-            <input type="text" class="form-control" id="hotel" name="hotel"
-            placeholder="mm/dd/yyyy" //required />
-            <div class="input-group-append">
-              <button
-                class="btn btn-outline-secondary"
-                type="button"
-                id="hotelDateButton"
-              >
-                Select Date
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="rentalCar">Rental Car</label>
-          <input
-            type="text"
-            class="form-control"
-            id="rentalCar"
-            name="rentalCar"
-            placeholder="mm/dd/yyyy"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary centered">Submit</button>
       </form>
     </div>
     <div class="container">
@@ -93,6 +45,5 @@
       </div>
     </div>
     <script src="js/app.js"></script>
-    <style src="css/style.css"></style>
   </body>
 </html>
