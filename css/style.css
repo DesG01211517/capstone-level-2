@@ -5,15 +5,10 @@
 --cerulean: hsla(203, 39%, 44%, 1);
 --berkeley-blue: hsla(215, 50%, 23%, 1);
 
-h2 {
-    
-}
-
 #header {
     background-color: hsla(182, 43%, 76%, 1);
     padding: 15px;
 }
-
 #body {
     background-image: url("../Img/capital.jpg");
     background-size: cover;
