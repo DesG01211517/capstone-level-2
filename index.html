@@ -15,15 +15,15 @@
   </head>
   <body id="body">
     <div id="header">
-      <h1 class="text-center" style="color: black">
+      <h1 class="text-center" style="color: white">
         Let's Review Your Next Trade!
       </h1>
     </div>
-    <h2 style="text-align: center">Choose Your Company</h2>
+    <h2 style="text-align: center; color: white">Choose Your Company Below</h2>
     <div id="form" class="container">
       <form onSubmit="getDetails(event)">
-        <div class="form-group">
-          <label for="company">Company Name *</label>
+        <div class="form-group" style="text color: white">
+          <h2 style="text-align: center; color: white">Company Name *</h2>
           <input
             type="text"
             class="form-control"
@@ -40,13 +40,7 @@
         class="container-centered"
         style="background-color: hsla(105, 55%, 96%, 1)"
       >
-        <ul id="list">
-          <li id="symbol"></li>
-          <li id="name"></li>
-          <li id="currency"></li>
-          <li id="stock Exchange"></li>
-          <li id="exchangeShortName"></li>
-        </ul>
+        <div id="list"></div>
       </div>
     </div>
     <script src="js/app.js"></script>

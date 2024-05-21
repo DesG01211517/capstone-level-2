@@ -6,7 +6,7 @@
 --berkeley-blue: hsla(215, 50%, 23%, 1);
 
 #header {
-    background-color: hsla(182, 43%, 76%, 1);
+    background-color: hsla(355, 78%, 56%, 1);
     padding: 15px;
 }
 #body {
@@ -18,14 +18,14 @@
     margin: auto;
     padding: 1.5rem;
     width: 75%;
-    border: 3px solid black;
+    border: 3px solid white;
     margin-block: 6rem;
 }
 #results {
     text-align: center;
     margin: auto;
-    width: 50%;
-    border: 3px solid black;
+    width: 30%;
+    border: none; white;
     padding: 1.5rem;
     margin-block: 5rem;
     

@@ -14,27 +14,28 @@ function getDetails(event) {
     .then((res) => res.json())
     .then((data) => {
       const listElement = document.getElementById("list");
+      listElement.textContent = "";
+
       for (let i = 0; i < data.length; i++) {
-        const symbolElement = document.createElement("li");
-        symbolElement.textContent = data[i].symbol;
+        const symbolElement = document.createElement("p");
+        symbolElement.textContent = `Symbol: ${data[i].symbol}`;
         listElement.appendChild(symbolElement);
 
-        const nameElement = document.createElement("li");
-        nameElement.textContent = data[i].name;
+        const nameElement = document.createElement("p");
+        nameElement.textContent = `Name: ${data[i].name}`;
         listElement.appendChild(nameElement);
 
-        const currencyElement = document.createElement("li");
-        currencyElement.textContent = data[i].currency;
+        const currencyElement = document.createElement("p");
+        currencyElement.textContent = `Currency: ${data[i].currency}`;
         listElement.appendChild(currencyElement);
 
-        const stockExchangeElement = document.createElement("li");
-        stockExchangeElement.textContent = data[i].stockExchangeElement;
+        const stockExchangeElement = document.createElement("p");
+        stockExchangeElement.textContent = `Stock Exchange Element: ${data[i].stockExchangeElement}`;
         listElement.appendChild(stockExchangeElement);
 
-        const exchangeShortNameElement = document.createElement("li");
-        exchangeShortNameElement.textContent = data[i].exchangeShortName;
+        const exchangeShortNameElement = document.createElement("p");
+        exchangeShortNameElement.textContent = `Exchange Short Name: ${data[i].exchangeShortName}`;
         listElement.appendChild(exchangeShortNameElement);
       }
-      //console.log(data);
     });
 }
