@@ -17,13 +17,13 @@ function getDetails(event) {
       listElement.textContent = "";
 
       for (let i = 0; i < data.length; i++) {
-        const symbolElement = document.createElement("p");
-        symbolElement.textContent = `Symbol: ${data[i].symbol}`;
-        listElement.appendChild(symbolElement);
-
         const nameElement = document.createElement("p");
         nameElement.textContent = `Name: ${data[i].name}`;
         listElement.appendChild(nameElement);
+
+        const symbolElement = document.createElement("p");
+        symbolElement.textContent = `Symbol: ${data[i].symbol}`;
+        listElement.appendChild(symbolElement);
 
         const currencyElement = document.createElement("p");
         currencyElement.textContent = `Currency: ${data[i].currency}`;
